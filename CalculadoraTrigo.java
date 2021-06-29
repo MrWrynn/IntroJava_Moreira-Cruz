@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class CalculadoraSimple {
+class CalculadoraTrigonometrica {
     public static void main(String[] args)
     {
         Scanner lr= new Scanner(System.in);
