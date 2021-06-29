@@ -38,7 +38,7 @@ class CalculadoraSimple {
                 System.out.println("Arcotangente: "+(angulo3));
                 break;
             case '3':
-                System.out.println("Operaciones trigonométricas parabolicas");
+                System.out.println("Operaciones trigonométricas hiperbólicas");
                 System.out.println("Ingrese el ángulo: ");
                 num1=lr.nextDouble();
                 double e=Math.E;
@@ -50,7 +50,6 @@ class CalculadoraSimple {
                 System.out.println("Cosh: "+cosh);
                 System.out.println("Sinh: "+sinh);
                 System.out.println("Tanh: "+tanh);
-                System.out.println("Resultado: "+(num1));
                 break;
             
 
