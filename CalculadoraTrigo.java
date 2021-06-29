@@ -7,7 +7,7 @@ class CalculadoraSimple {
         double num1=0;
         System.out.println("Escriba el número de la operación que desea realizar");
 
-        System.out.println("(1) Para Operaciones trigonométricas");
+        System.out.println("(1) Para Operaciones trigonométricas básicas");
         System.out.println("(2) Para Operaciones trigonométricas inversas");
         System.out.println("(3) Para Operaciones trigonométricas  hiperbólicas");
         char opcion = lr.next().charAt(0);
@@ -15,7 +15,7 @@ class CalculadoraSimple {
         switch(opcion)
         {
             case '1':
-                System.out.println("Operaciones trigonométricas");
+                System.out.println("Operaciones trigonométricas básicas");
                 System.out.println("Ingrese el ángulo: ");
                 num1=lr.nextDouble();
                 double angle = Math.toRadians(num1);
