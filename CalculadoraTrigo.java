@@ -41,9 +41,17 @@ class CalculadoraSimple {
                 System.out.println("Operaciones trigonométricas parabolicas");
                 System.out.println("Ingrese el ángulo: ");
                 num1=lr.nextDouble();
+                double e=Math.E;
+                double numeradorcosh= Math.pow(e, num1)-Math.pow(e, -num1);
+                double numeradorsinh= Math.pow(e, num1)+Math.pow(e, -num1);
+                double cosh=(numeradorcosh/2);
+                double sinh=(numeradorsinh/2);
+                double tanh=(numeradorcosh/numeradorsinh);
+                System.out.println("Cosh: "+cosh);
+                System.out.println("Sinh: "+sinh);
+                System.out.println("Tanh: "+tanh);
                 System.out.println("Resultado: "+(num1));
                 break;
-                
             
 
         }
